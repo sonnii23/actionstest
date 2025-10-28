@@ -3,7 +3,7 @@ package de.hs_el.streekmann.algodat.aufgabe1;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class LinkedList<E> implements List<E> {
+public class LinkedList<E> List<E> {
     private class Node {
         private final E element;
         Node successor;
